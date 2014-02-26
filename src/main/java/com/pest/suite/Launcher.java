@@ -32,7 +32,7 @@ public class Launcher {
 		
 		String usageMessage = getUsageMessage();
 		
-		if (args.length == 0) {
+		if (args.length == 1) {
 			System.out.println(usageMessage);
 			result = false;
 		}
