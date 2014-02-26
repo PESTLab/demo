@@ -15,8 +15,13 @@ public class CalculatorTests {
 	}
 
 	@Test
-	public void testAdd() {
+	public void testAddPositiveNumbers() {
 		assertEquals(5, calc.add(2, 3));
+	}
+	
+	@Test
+	public void testAddNegativeNumbers() {
+		assertEquals(-5, calc.add(-2, -3));
 	}
 	
 
