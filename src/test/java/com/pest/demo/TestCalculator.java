@@ -24,5 +24,9 @@ public class TestCalculator {
 		assertEquals(-5, calc.add(-2, -3));
 	}
 	
+	@Test
+	public void testSubtraction() {
+		assertEquals(5, calc.divide(25, 5));
+	}
 
 }
