@@ -21,7 +21,7 @@ public class TestCalculator {
 	
 	@Test
 	public void testAddNegativeNumbers() {
-		assertEquals(-8, calc.add(-1, -3));
+		assertEquals(-8, calc.add(-5, -3));
 	}
 	
 	@Test
